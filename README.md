@@ -32,6 +32,10 @@ The first two principal components explained approximately 88.98% of the total v
 
 The PCA scatter plot showed about three broad groups of points, although there was some overlap between them.
 
+### PCA Visualization
+
+![PCA scatter plot](PCA%20scatter%20plot.png)
+
 ## K-Means Clustering
 
 K-Means clustering was applied to the standardized data.
@@ -45,6 +49,12 @@ The number of clusters was investigated using:
 Three clusters were selected because the PCA visualization suggested approximately three groups and the Elbow method also supported a choice around three clusters.
 
 The Silhouette method supported two clusters, so the choice of three clusters involves some uncertainty.
+
+### Cluster Selection
+
+![Elbow method](Elbow%20method.png)
+
+![Silhouette method](Silhouette%20method.png)
 
 ## Results
 
@@ -63,6 +73,10 @@ The purity score was:
 This indicates that the discovered clusters matched the known varieties quite well, although the match was not perfect.
 
 Variety 2 was separated most cleanly, with most of its samples concentrated in one cluster.
+
+### True Varieties
+
+![PCA scatter plot - True varieties](PCA%20scatter%20plot%20-%20True%20varieties.png)
 
 ## Cluster Profiles
 
